@@ -9,7 +9,7 @@
 ![Dashboard de Vendas](Dashboard-Vendas.png)
 
 <div align="center">
-  <sub>⭐ Se este projeto te ajudou, deixa uma estrela no repositório!</sub>
+
 </div>
 
 ---
@@ -31,13 +31,11 @@ O dashboard responde a perguntas estratégicas como:
 
 ## 🗂️ Estrutura do Relatório
 
-O arquivo `.pbix` contém **3 páginas**:
+O arquivo `.pbix` contém **1 página**:
 
 | Página | Descrição |
 |--------|-----------|
 | `Página 1` | Painel principal com todos os KPIs e visualizações |
-| `Página 2` | Rascunho / dados auxiliares (oculta no modo de visualização) |
-| `Duplicata de Página 1` | Variação do painel principal para análise comparativa |
 
 ---
 
@@ -74,3 +72,44 @@ O arquivo `.pbix` contém **3 páginas**:
 
 O modelo segue o padrão **Star Schema** com as seguintes tabelas identificadas:
 
+📁 Vendas          → tabela fato principal (Valor da Venda, Estado, Região, Segmento)
+📅 dCalendario     → dimensão de tempo (Ano, Mês, Hierarquia)
+👔 Gerentes        → dimensão de gestores (Gerente, Receita por Gerente)
+📐 RECEITA         → medidas de receita (Receita Líquida)
+💰 LUCROS          → medidas de lucro (Lucro Líquido, Ticket Médio, Meta)
+🏷️ CMV             → custo das mercadorias vendidas
+📊 Ranking         → métricas de participação percentual
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Star%20Schema-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)
+
+- **Power BI Desktop** — construção do relatório  
+- **DAX** — criação de medidas calculadas (Lucro Líquido, Ticket Médio, Meta, % Participação)  
+- **Power Query (M)** — transformação e modelagem dos dados  
+
+---
+## 💡 Insights com Este Dashboard
+
+- Identificar **regiões com maior margem de lucro** para priorizar investimentos  
+- Detectar **segmentos de clientes mais rentáveis** e concentrar esforços de vendas  
+- Comparar **desempenho mensal vs. meta** para acionar planos de contingência  
+- Avaliar a **contribuição individual de cada gerente** para a receita total  
+- Mapear **estados com maior volume de vendas** para expansão geográfica  
+- Monitorar o **ticket médio** para avaliar eficiência comercial  
+
+---
+
+## 📜 Licença
+
+Distribuído sob a licença MIT [`LICENSE`](LICENSE).
+
+---
+
+## 👤 Autor
+
+Feito por **Marcos Vinicius Lima**
