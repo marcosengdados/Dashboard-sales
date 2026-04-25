@@ -72,13 +72,13 @@ O arquivo `.pbix` contém **1 página**:
 
 O modelo segue o padrão **Star Schema** com as seguintes tabelas identificadas:
 
-📁 Vendas          → tabela fato principal (Valor da Venda, Estado, Região, Segmento)
-📅 dCalendario     → dimensão de tempo (Ano, Mês, Hierarquia)
-👔 Gerentes        → dimensão de gestores (Gerente, Receita por Gerente)
-📐 RECEITA         → medidas de receita (Receita Líquida)
-💰 LUCROS          → medidas de lucro (Lucro Líquido, Ticket Médio, Meta)
-🏷️ CMV             → custo das mercadorias vendidas
-📊 Ranking         → métricas de participação percentual
+- 📁 Vendas          → tabela fato principal (Valor da Venda, Estado, Região, Segmento)
+- 📅 dCalendario     → dimensão de tempo (Ano, Mês, Hierarquia)
+- 👔 Gerentes        → dimensão de gestores (Gerente, Receita por Gerente)
+- 📐 RECEITA         → medidas de receita (Receita Líquida)
+- 💰 LUCROS          → medidas de lucro (Lucro Líquido, Ticket Médio, Meta)
+- 🏷️ CMV             → custo das mercadorias vendidas
+- 📊 Ranking         → métricas de participação percentual
 
 ---
 
