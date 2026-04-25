@@ -15,7 +15,6 @@
  
 <!-- Descomente a linha abaixo após adicionar a imagem:
 ![Dashboard de Vendas]([Dashboard-Vendas.png])
--->
  
 <div align="center">
   <i>🔜 Imagem do dashboard será exibida aqui — adicione o arquivo em <code>assets/dashboard-preview.png</code></i>
@@ -100,14 +99,13 @@ O modelo segue o padrão **Star Schema** com as seguintes tabelas identificadas:
 - **Power BI Desktop** — construção do relatório
 - **DAX** — criação de medidas calculadas (Lucro Líquido, Ticket Médio, Meta, % Participação)
 - **Power Query (M)** — transformação e modelagem dos dados
-- **Tema Fluent 2** — identidade visual moderna (Microsoft Design System)
 ---
  
 ## 🚀 Como Utilizar
  
 ### Pré-requisitos
  
-- [Power BI Desktop](https://powerbi.microsoft.com/pt-br/desktop/)
+- ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)[Power BI Desktop](https://powerbi.microsoft.com/pt-br/desktop/)
 ### Passos
  
 
@@ -122,13 +120,13 @@ O modelo segue o padrão **Star Schema** com as seguintes tabelas identificadas:
 
 ## 📜 Licença
  
-Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE) para mais informações.
+Distribuído sob a licença MIT [`LICENSE`](LICENSE) .
  
 ---
  
 ## 👤 Autor
  
-Feito com 💙 por **[Marcos Vinicius Lima]**
+Feito por **[Marcos Vinicius Lima]**
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
