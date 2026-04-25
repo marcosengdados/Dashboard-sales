@@ -10,11 +10,11 @@
 > 📌 **Para adicionar a imagem:** faça o upload do screenshot na pasta `/assets/` do repositório e substitua o bloco abaixo:
  
 ```md
-![Dashboard de Vendas](assets/dashboard-preview.png)
+![Dashboard de Vendas](assets/[Dashboard%20Vendas.pdf]
 ```
  
 <!-- Descomente a linha abaixo após adicionar a imagem:
-![Dashboard de Vendas](assets/[dashboard-preview.png](https://github.com/marcosengdados/Dashboard-sales/blob/main/Dashboard%20Vendas.pdf))
+![Dashboard de Vendas](assets/[Dashboard%20Vendas.pdf]
 -->
  
 <div align="center">
